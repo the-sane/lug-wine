@@ -12,11 +12,13 @@ cd ~/src
 
 git clone https://github.com/rawfoxDE/lug-wine.git ./lug-wine
 
-That will clone the runner into your ~/src/lug-wine
+That will clone the runner into /home/you/src/lug-wine
 
-To use it under Lutris, copy or symlink the directory '~/src/lug-wine/lug-sc-wine' to your Lutris runners. You may find them under '~/.local/share/lutris/runners/wine'.
+To use it under Lutris, copy or symlink the directory '/home/you/src/lug-wine/lug-sc-wine' to your Lutris runners. 
+You may find them under '/home/you/.local/share/lutris/runners/wine'.
 
-After that, tweak your Lutris game configuration to set the runner as 'Custom'. In the line below you point to the new wine executable under '~/.local/share/lutris/runners/wine/lug-sc-wine/bin/wine64'
+After that, tweak your Lutris game configuration to set the runner as 'Custom'. 
+In the line below you point to the new wine executable under '/home/you/.local/share/lutris/runners/wine/lug-sc-wine/bin/wine64'
 
 For help and support, join the Linux Users Group at CIG. 
 
