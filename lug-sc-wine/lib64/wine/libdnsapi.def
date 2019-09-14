@@ -45,7 +45,7 @@ EXPORTS
   DnsFreeNetworkInformation @40 PRIVATE
   DnsFreeSearchInformation @41 PRIVATE
   DnsGetBufferLengthForStringCopy @42 PRIVATE
-  DnsGetCacheDataTable @43 PRIVATE
+  DnsGetCacheDataTable @43
   DnsGetDnsServerList @44 PRIVATE
   DnsGetDomainName @45 PRIVATE
   DnsGetHostName_A @46 PRIVATE

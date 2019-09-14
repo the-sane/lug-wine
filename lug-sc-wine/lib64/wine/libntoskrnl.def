@@ -1091,8 +1091,8 @@ EXPORTS
   RtlIpv4AddressToStringExA @1086
   RtlIpv4AddressToStringExW @1087
   RtlIpv4AddressToStringW @1088
-  RtlIpv4StringToAddressA @1089 PRIVATE
-  RtlIpv4StringToAddressExA @1090 PRIVATE
+  RtlIpv4StringToAddressA=ntdll.RtlIpv4StringToAddressA @1089
+  RtlIpv4StringToAddressExA=ntdll.RtlIpv4StringToAddressExA @1090
   RtlIpv4StringToAddressExW @1091
   RtlIpv4StringToAddressW @1092
   RtlIpv6AddressToStringA @1093 PRIVATE

@@ -16,7 +16,7 @@ EXPORTS
   CopyPropVariant@0 @11 PRIVATE
   CreatePropVariant@0 @12 PRIVATE
   CreatePropertyStore@4 @13
-  DestroyPropVariant@0 @14 PRIVATE
+  DestroyPropVariant@4 @14
   GetAMSubtypeFromD3DFormat@0 @15 PRIVATE
   GetD3DFormatFromMFSubtype@0 @16 PRIVATE
   LFGetGlobalPool@0 @17 PRIVATE
@@ -94,7 +94,7 @@ EXPORTS
   MFGetAdaptersAddresses@0 @89 PRIVATE
   MFGetAttributesAsBlob@12 @90
   MFGetAttributesAsBlobSize@8 @91
-  MFGetConfigurationDWORD@0 @92 PRIVATE
+  MFGetConfigurationDWORD@12 @92
   MFGetConfigurationPolicy@0 @93 PRIVATE
   MFGetConfigurationStore@0 @94 PRIVATE
   MFGetConfigurationString@0 @95 PRIVATE
