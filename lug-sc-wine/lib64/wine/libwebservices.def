@@ -75,7 +75,7 @@ EXPORTS
   WsGetHeaderAttributes @70 PRIVATE
   WsGetHeapProperty @71
   WsGetListenerProperty @72
-  WsGetMappedHeader @73 PRIVATE
+  WsGetMappedHeader @73
   WsGetMessageProperty @74
   WsGetMetadataEndpoints @75 PRIVATE
   WsGetMetadataProperty @76 PRIVATE

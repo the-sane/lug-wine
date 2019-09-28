@@ -53,7 +53,7 @@ EXPORTS
   BCryptSetAuditingInterface @48 PRIVATE
   BCryptSetContextFunctionProperty @49 PRIVATE
   BCryptSetProperty @50
-  BCryptSignHash @51 PRIVATE
+  BCryptSignHash @51
   BCryptUnregisterConfigChangeNotify @52 PRIVATE
   BCryptUnregisterProvider @53
   BCryptVerifySignature @54

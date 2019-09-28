@@ -63,7 +63,7 @@ EXPORTS
   MFCreateSequencerSourceRemoteStream@0 @58 PRIVATE
   MFCreateSimpleTypeHandler@0 @59 PRIVATE
   MFCreateSourceResolver@4=mfplat.MFCreateSourceResolver @60
-  MFCreateStandardQualityManager@0 @61 PRIVATE
+  MFCreateStandardQualityManager@4 @61
   MFCreateTopoLoader@4 @62
   MFCreateTopology@4 @63
   MFCreateTopologyNode@8 @64
