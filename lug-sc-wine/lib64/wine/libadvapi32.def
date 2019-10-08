@@ -486,90 +486,91 @@ EXPORTS
   SetNamedSecurityInfoA @481
   SetNamedSecurityInfoW @482
   SetPrivateObjectSecurity @483
-  SetSecurityDescriptorControl @484
-  SetSecurityDescriptorDacl @485
-  SetSecurityDescriptorGroup @486
-  SetSecurityDescriptorOwner @487
-  SetSecurityDescriptorSacl @488
-  SetSecurityInfo @489
-  SetServiceBits @490
-  SetServiceObjectSecurity @491
-  SetServiceStatus @492
-  SetThreadToken @493
-  SetTokenInformation @494
-  StartServiceA @495
-  StartServiceCtrlDispatcherA @496
-  StartServiceCtrlDispatcherW @497
-  StartServiceW @498
-  StartTraceA @499
-  StartTraceW @500
-  StopTraceA @501
-  StopTraceW @502
-  SynchronizeWindows31FilesAndWindowsNTRegistry @503
-  SystemFunction001 @504
-  SystemFunction002 @505
-  SystemFunction003 @506
-  SystemFunction004 @507
-  SystemFunction005 @508
-  SystemFunction006 @509
-  SystemFunction007 @510
-  SystemFunction008 @511
-  SystemFunction009 @512
-  SystemFunction010 @513
-  SystemFunction011=SystemFunction010 @514
-  SystemFunction012 @515
-  SystemFunction013 @516
-  SystemFunction014=SystemFunction012 @517
-  SystemFunction015=SystemFunction013 @518
-  SystemFunction016=SystemFunction012 @519
-  SystemFunction017=SystemFunction013 @520
-  SystemFunction018=SystemFunction012 @521
-  SystemFunction019=SystemFunction013 @522
-  SystemFunction020=SystemFunction012 @523
-  SystemFunction021=SystemFunction013 @524
-  SystemFunction022=SystemFunction012 @525
-  SystemFunction023=SystemFunction013 @526
-  SystemFunction024 @527
-  SystemFunction025 @528
-  SystemFunction026=SystemFunction024 @529
-  SystemFunction027=SystemFunction025 @530
-  SystemFunction028 @531 PRIVATE
-  SystemFunction029 @532 PRIVATE
-  SystemFunction030 @533
-  SystemFunction031=SystemFunction030 @534
-  SystemFunction032 @535
-  SystemFunction033 @536 PRIVATE
-  SystemFunction034 @537 PRIVATE
-  SystemFunction035 @538
-  SystemFunction036 @539
-  SystemFunction040 @540
-  SystemFunction041 @541
-  TraceEvent=ntdll.EtwLogTraceEvent @542
-  TraceEventInstance @543 PRIVATE
-  TraceMessage=ntdll.EtwTraceMessage @544
-  TraceMessageVa=ntdll.EtwTraceMessageVa @545
-  TraceSetInformation @546
-  TreeResetNamedSecurityInfoW @547
-  UnlockServiceDatabase @548
-  UnregisterTraceGuids=ntdll.EtwUnregisterTraceGuids @549
-  UpdateTraceA @550 PRIVATE
-  UpdateTraceW @551 PRIVATE
-  WdmWmiServiceMain @552 PRIVATE
-  WmiCloseBlock @553 PRIVATE
-  WmiExecuteMethodA @554
-  WmiExecuteMethodW @555
-  WmiFreeBuffer @556
-  WmiMofEnumerateResourcesA @557
-  WmiMofEnumerateResourcesW @558
-  WmiNotificationRegistrationA @559
-  WmiNotificationRegistrationW @560
-  WmiOpenBlock @561
-  WmiQueryAllDataA @562
-  WmiQueryAllDataW @563
-  WmiQueryGuidInformation @564
-  WmiQuerySingleInstanceW @565 PRIVATE
-  WmiSetSingleInstanceA @566
-  WmiSetSingleInstanceW @567
-  WmiSetSingleItemA @568
-  WmiSetSingleItemW @569
-  WriteEncryptedFileRaw @570
+  SetPrivateObjectSecurityEx @484
+  SetSecurityDescriptorControl @485
+  SetSecurityDescriptorDacl @486
+  SetSecurityDescriptorGroup @487
+  SetSecurityDescriptorOwner @488
+  SetSecurityDescriptorSacl @489
+  SetSecurityInfo @490
+  SetServiceBits @491
+  SetServiceObjectSecurity @492
+  SetServiceStatus @493
+  SetThreadToken @494
+  SetTokenInformation @495
+  StartServiceA @496
+  StartServiceCtrlDispatcherA @497
+  StartServiceCtrlDispatcherW @498
+  StartServiceW @499
+  StartTraceA @500
+  StartTraceW @501
+  StopTraceA @502
+  StopTraceW @503
+  SynchronizeWindows31FilesAndWindowsNTRegistry @504
+  SystemFunction001 @505
+  SystemFunction002 @506
+  SystemFunction003 @507
+  SystemFunction004 @508
+  SystemFunction005 @509
+  SystemFunction006 @510
+  SystemFunction007 @511
+  SystemFunction008 @512
+  SystemFunction009 @513
+  SystemFunction010 @514
+  SystemFunction011=SystemFunction010 @515
+  SystemFunction012 @516
+  SystemFunction013 @517
+  SystemFunction014=SystemFunction012 @518
+  SystemFunction015=SystemFunction013 @519
+  SystemFunction016=SystemFunction012 @520
+  SystemFunction017=SystemFunction013 @521
+  SystemFunction018=SystemFunction012 @522
+  SystemFunction019=SystemFunction013 @523
+  SystemFunction020=SystemFunction012 @524
+  SystemFunction021=SystemFunction013 @525
+  SystemFunction022=SystemFunction012 @526
+  SystemFunction023=SystemFunction013 @527
+  SystemFunction024 @528
+  SystemFunction025 @529
+  SystemFunction026=SystemFunction024 @530
+  SystemFunction027=SystemFunction025 @531
+  SystemFunction028 @532 PRIVATE
+  SystemFunction029 @533 PRIVATE
+  SystemFunction030 @534
+  SystemFunction031=SystemFunction030 @535
+  SystemFunction032 @536
+  SystemFunction033 @537 PRIVATE
+  SystemFunction034 @538 PRIVATE
+  SystemFunction035 @539
+  SystemFunction036 @540
+  SystemFunction040 @541
+  SystemFunction041 @542
+  TraceEvent=ntdll.EtwLogTraceEvent @543
+  TraceEventInstance @544 PRIVATE
+  TraceMessage=ntdll.EtwTraceMessage @545
+  TraceMessageVa=ntdll.EtwTraceMessageVa @546
+  TraceSetInformation @547
+  TreeResetNamedSecurityInfoW @548
+  UnlockServiceDatabase @549
+  UnregisterTraceGuids=ntdll.EtwUnregisterTraceGuids @550
+  UpdateTraceA @551 PRIVATE
+  UpdateTraceW @552 PRIVATE
+  WdmWmiServiceMain @553 PRIVATE
+  WmiCloseBlock @554 PRIVATE
+  WmiExecuteMethodA @555
+  WmiExecuteMethodW @556
+  WmiFreeBuffer @557
+  WmiMofEnumerateResourcesA @558
+  WmiMofEnumerateResourcesW @559
+  WmiNotificationRegistrationA @560
+  WmiNotificationRegistrationW @561
+  WmiOpenBlock @562
+  WmiQueryAllDataA @563
+  WmiQueryAllDataW @564
+  WmiQueryGuidInformation @565
+  WmiQuerySingleInstanceW @566 PRIVATE
+  WmiSetSingleInstanceA @567
+  WmiSetSingleInstanceW @568
+  WmiSetSingleItemA @569
+  WmiSetSingleItemW @570
+  WriteEncryptedFileRaw @571

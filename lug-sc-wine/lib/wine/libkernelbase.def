@@ -23,7 +23,7 @@ EXPORTS
   AddAuditAccessAce@24 @18
   AddAuditAccessAceEx@28 @19
   AddAuditAccessObjectAce@36 @20
-  AddDllDirectory@4=kernel32.AddDllDirectory @21
+  AddDllDirectory@4 @21
   AddMandatoryAce@20 @22
   AddRefActCtx@4 @23
   AddVectoredContinueHandler@8=ntdll.RtlAddVectoredContinueHandler @24
@@ -205,7 +205,7 @@ EXPORTS
   EnumDateFormatsExW@12=kernel32.EnumDateFormatsExW @200
   EnumDateFormatsW@12=kernel32.EnumDateFormatsW @201
   EnumDynamicTimeZoneInformation@8 @202
-  EnumLanguageGroupLocalesW@16=kernel32.EnumLanguageGroupLocalesW @203
+  EnumLanguageGroupLocalesW@16 @203
   EnumResourceLanguagesExA@28 @204
   EnumResourceLanguagesExW@28 @205
   EnumResourceNamesExA@24 @206
@@ -213,16 +213,16 @@ EXPORTS
   EnumResourceNamesW@16 @208
   EnumResourceTypesExA@20 @209
   EnumResourceTypesExW@20 @210
-  EnumSystemCodePagesW@8=kernel32.EnumSystemCodePagesW @211
+  EnumSystemCodePagesW@8 @211
   EnumSystemFirmwareTables@12=kernel32.EnumSystemFirmwareTables @212
   EnumSystemGeoID@12=kernel32.EnumSystemGeoID @213
-  EnumSystemLanguageGroupsW@12=kernel32.EnumSystemLanguageGroupsW @214
-  EnumSystemLocalesA@8=kernel32.EnumSystemLocalesA @215
-  EnumSystemLocalesEx@16=kernel32.EnumSystemLocalesEx @216
-  EnumSystemLocalesW@8=kernel32.EnumSystemLocalesW @217
+  EnumSystemLanguageGroupsW@12 @214
+  EnumSystemLocalesA@8 @215
+  EnumSystemLocalesEx@16 @216
+  EnumSystemLocalesW@8 @217
   EnumTimeFormatsEx@16=kernel32.EnumTimeFormatsEx @218
   EnumTimeFormatsW@12=kernel32.EnumTimeFormatsW @219
-  EnumUILanguagesW@12=kernel32.EnumUILanguagesW @220
+  EnumUILanguagesW@12 @220
   EqualDomainSid@0 @221 PRIVATE
   EqualPrefixSid@8 @222
   EqualSid@8 @223
@@ -286,7 +286,7 @@ EXPORTS
   FreeConsole@0 @281
   FreeEnvironmentStringsA@4=FreeEnvironmentStringsW @282
   FreeEnvironmentStringsW@4 @283
-  FreeLibrary@4=kernel32.FreeLibrary @284
+  FreeLibrary@4 @284
   FreeLibraryAndExitThread@8 @285
   FreeLibraryWhenCallbackReturns@8=ntdll.TpCallbackUnloadDllOnCompletion @286
   FreeResource@4 @287
@@ -433,7 +433,7 @@ EXPORTS
   GetPhysicallyInstalledSystemMemory@4=kernel32.GetPhysicallyInstalledSystemMemory @428
   GetPriorityClass@4 @429
   GetPrivateObjectSecurity@20 @430
-  GetProcAddress@8=kernel32.GetProcAddress @431
+  GetProcAddress@8 @431
   GetProcessHandleCount@8 @432
   GetProcessHeap@0=kernelbase_GetProcessHeap @433
   GetProcessHeaps@8=RtlGetProcessHeaps @434
@@ -589,12 +589,12 @@ EXPORTS
   InternalLcidToName@0 @584 PRIVATE
   Internal_EnumCalendarInfo@0 @585 PRIVATE
   Internal_EnumDateFormats@0 @586 PRIVATE
-  Internal_EnumLanguageGroupLocales@0 @587 PRIVATE
-  Internal_EnumSystemCodePages@0 @588 PRIVATE
-  Internal_EnumSystemLanguageGroups@0 @589 PRIVATE
+  Internal_EnumLanguageGroupLocales@20 @587
+  Internal_EnumSystemCodePages@12 @588
+  Internal_EnumSystemLanguageGroups@16 @589
   Internal_EnumSystemLocales@0 @590 PRIVATE
   Internal_EnumTimeFormats@0 @591 PRIVATE
-  Internal_EnumUILanguages@0 @592 PRIVATE
+  Internal_EnumUILanguages@16 @592
   InvalidateTzSpecificCache@0 @593 PRIVATE
   IsCharAlphaA@4 @594
   IsCharAlphaNumericA@4 @595
@@ -624,7 +624,7 @@ EXPORTS
   IsTokenRestricted@4 @619
   IsValidAcl@4 @620
   IsValidCodePage@4=kernel32.IsValidCodePage @621
-  IsValidLanguageGroup@8=kernel32.IsValidLanguageGroup @622
+  IsValidLanguageGroup@8 @622
   IsValidLocale@8=kernel32.IsValidLocale @623
   IsValidLocaleName@4=kernel32.IsValidLocaleName @624
   IsValidRelativeSecurityDescriptor@0 @625 PRIVATE
@@ -666,10 +666,10 @@ EXPORTS
   LCMapStringW@24=kernel32.LCMapStringW @661
   LeaveCriticalSection@4=ntdll.RtlLeaveCriticalSection @662
   LeaveCriticalSectionWhenCallbackReturns@8=ntdll.TpCallbackLeaveCriticalSectionOnCompletion @663
-  LoadLibraryA@4=kernel32.LoadLibraryA @664
-  LoadLibraryExA@12=kernel32.LoadLibraryExA @665
-  LoadLibraryExW@12=kernel32.LoadLibraryExW @666
-  LoadLibraryW@4=kernel32.LoadLibraryW @667
+  LoadLibraryA@4 @664
+  LoadLibraryExA@12 @665
+  LoadLibraryExW@12 @666
+  LoadLibraryW@4 @667
   LoadResource@8 @668
   LoadStringA@16 @669
   LoadStringBaseExW@0 @670 PRIVATE
@@ -948,7 +948,7 @@ EXPORTS
   RemapPredefinedHandleInternal@8 @943
   RemoveDirectoryA@4=kernel32.RemoveDirectoryA @944
   RemoveDirectoryW@4=kernel32.RemoveDirectoryW @945
-  RemoveDllDirectory@4=kernel32.RemoveDllDirectory @946
+  RemoveDllDirectory@4 @946
   RemoveVectoredContinueHandler@4=ntdll.RtlRemoveVectoredContinueHandler @947
   RemoveVectoredExceptionHandler@4=ntdll.RtlRemoveVectoredExceptionHandler @948
   ReplaceFileW@24=kernel32.ReplaceFileW @949
@@ -990,8 +990,8 @@ EXPORTS
   SHTruncateString@8 @985
   ScrollConsoleScreenBufferA@20 @986
   ScrollConsoleScreenBufferW@20 @987
-  SearchPathA@24=kernel32.SearchPathA @988
-  SearchPathW@24=kernel32.SearchPathW @989
+  SearchPathA@24 @988
+  SearchPathW@24 @989
   SetAclInformation@16 @990
   SetCalendarInfoW@16=kernel32.SetCalendarInfoW @991
   SetCommBreak@4 @992
@@ -1020,7 +1020,7 @@ EXPORTS
   SetCriticalSectionSpinCount@8=ntdll.RtlSetCriticalSectionSpinCount @1015
   SetCurrentDirectoryA@4 @1016
   SetCurrentDirectoryW@4 @1017
-  SetDefaultDllDirectories@4=kernel32.SetDefaultDllDirectories @1018
+  SetDefaultDllDirectories@4 @1018
   SetEndOfFile@4 @1019
   SetEnvironmentStringsW@0 @1020 PRIVATE
   SetEnvironmentVariableA@8 @1021
@@ -1048,7 +1048,7 @@ EXPORTS
   SetNamedPipeHandleState@16 @1043
   SetPriorityClass@8 @1044
   SetPrivateObjectSecurity@20 @1045
-  SetPrivateObjectSecurityEx@0 @1046 PRIVATE
+  SetPrivateObjectSecurityEx@24 @1046
   SetProcessAffinityUpdateMode@8 @1047
   SetProcessMitigationPolicy@12 @1048
   SetProcessPreferredUILanguages@12=kernel32.SetProcessPreferredUILanguages @1049

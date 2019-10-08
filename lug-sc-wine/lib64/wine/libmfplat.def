@@ -152,7 +152,7 @@ EXPORTS
   MFTGetInfo @147 PRIVATE
   MFTRegister @148
   MFTRegisterLocal @149
-  MFTRegisterLocalByCLSID @150 PRIVATE
+  MFTRegisterLocalByCLSID @150
   MFTUnregister @151
   MFTUnregisterLocal @152
   MFTUnregisterLocalByCLSID @153 PRIVATE
