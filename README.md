@@ -1,10 +1,12 @@
 # lug-wine
 
-wine-4.17 (Staging) wow64 biarch Build from 28. September 2019
+wine-4.17-183-g1f2c17d2bc (Staging) wow64 biarch Build from 8. October 2019
 
 This is a Lutris runner for StarCitizen !
 
-This runner offers fsync() support.
+This runner offers no fsync() support !
+Contains the latest fixes to esync() by doitsujin in the hope, it will solve the black screen issue in SC.
+
 
 Important:
 
