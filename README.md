@@ -1,12 +1,13 @@
 # lug-wine
 
-wine-4.17-183-g1f2c17d2bc (Staging) wow64 biarch Build from 8. October 2019
+wine-4.18-145-g237d563627 (Staging)
+WoW64 biarch Build from 28. October 2019
 
 This is a Lutris runner for StarCitizen !
 
 This runner offers no fsync() support !
-Contains the latest fixes to esync() by doitsujin in the hope, it will solve the black screen issue in SC.
-
+When you run into a black screen, make sure you have vcrun2017/vcredist and d3dcompiler_47 installed in your prefix.
+You may have to copy the d3dcompiler_47.dll from the launcher dir to the games /Bin64 folder.
 
 Important:
 
