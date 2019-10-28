@@ -358,7 +358,7 @@ EXPORTS
   IoCreateStreamFileObjectLite @353 PRIVATE
   IoCreateSymbolicLink @354
   IoCreateSynchronizationEvent @355
-  IoCreateUnprotectedSymbolicLink @356 PRIVATE
+  IoCreateUnprotectedSymbolicLink @356
   IoCsqInitialize @357
   IoCsqInsertIrp @358 PRIVATE
   IoCsqRemoveIrp @359 PRIVATE

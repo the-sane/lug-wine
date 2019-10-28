@@ -1301,7 +1301,8 @@ EXPORTS
   wine_get_build_id=NTDLL_wine_get_build_id @1296
   wine_get_host_version=NTDLL_wine_get_host_version @1297
   __wine_init_codepages @1298
-  __wine_set_signal_handler @1299
-  wine_nt_to_unix_file_name @1300
-  wine_unix_to_nt_file_name @1301
-  __wine_user_shared_data @1302
+  __wine_get_unix_codepage @1299
+  __wine_set_signal_handler @1300
+  wine_nt_to_unix_file_name @1301
+  wine_unix_to_nt_file_name @1302
+  __wine_user_shared_data @1303

@@ -1,4 +1,4 @@
-.TH WINE 1 "July 2013" "Wine 4.17" "Windows On Unix"
+.TH WINE 1 "July 2013" "Wine 4.18" "Windows On Unix"
 .SH NAME
 wine \- run Windows programs on Unix
 .SH SYNOPSIS
@@ -87,7 +87,7 @@ processes.
 Specifies the path and name of the
 .B wineserver
 binary. If not set, Wine will try to load
-.IR /home/osboxes/src/lu-wine/lug-sc-wine/bin/wineserver ,
+.IR /home/osboxes/src/lug-wine/lug-sc-wine/bin/wineserver ,
 and if this doesn't exist it will then look for a file named
 "wineserver" in the path and in a few other likely locations.
 .TP
@@ -96,7 +96,7 @@ Specifies the path and name of the
 .B wine
 binary to use to launch new Windows processes. If not set, Wine will
 try to load
-.IR /home/osboxes/src/lu-wine/lug-sc-wine/bin/wine ,
+.IR /home/osboxes/src/lug-wine/lug-sc-wine/bin/wine ,
 and if this doesn't exist it will then look for a file named "wine" in
 the path and in a few other likely locations.
 .TP
@@ -156,7 +156,7 @@ applications. This is a list of directories separated by ":". In
 addition to any directory specified in
 .BR WINEDLLPATH ,
 Wine will also look in
-.IR /home/osboxes/src/lu-wine/lug-sc-wine/lib/wine .
+.IR /home/osboxes/src/lug-wine/lug-sc-wine/lib/wine .
 .TP
 .B WINEDLLOVERRIDES
 Defines the override type and load order of dlls used in the loading
@@ -246,19 +246,19 @@ Set the MIDI (sequencer) device. Default
 .IR /dev/sequencer .
 .SH FILES
 .TP
-.I /home/osboxes/src/lu-wine/lug-sc-wine/bin/wine
+.I /home/osboxes/src/lug-wine/lug-sc-wine/bin/wine
 The Wine program loader.
 .TP
-.I /home/osboxes/src/lu-wine/lug-sc-wine/bin/wineconsole
+.I /home/osboxes/src/lug-wine/lug-sc-wine/bin/wineconsole
 The Wine program loader for CUI (console) applications.
 .TP
-.I /home/osboxes/src/lu-wine/lug-sc-wine/bin/wineserver
+.I /home/osboxes/src/lug-wine/lug-sc-wine/bin/wineserver
 The Wine server
 .TP
-.I /home/osboxes/src/lu-wine/lug-sc-wine/bin/winedbg
+.I /home/osboxes/src/lug-wine/lug-sc-wine/bin/winedbg
 The Wine debugger
 .TP
-.I /home/osboxes/src/lu-wine/lug-sc-wine/lib/wine
+.I /home/osboxes/src/lug-wine/lug-sc-wine/lib/wine
 Directory containing Wine shared libraries
 .TP
 .I $WINEPREFIX/dosdevices
