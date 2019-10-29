@@ -1,7 +1,7 @@
 # lug-wine
 
-wine-4.18-145-g237d563627 (Staging)
-WoW64 biarch Build from 28. October 2019
+wine-4.18-186-g5b62f89baa (Staging)
+WoW64 biarch Build from 29. October 2019
 
 This is a Lutris runner for StarCitizen !
 
