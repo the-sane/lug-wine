@@ -51,7 +51,7 @@ EXPORTS
   PSCreateMemoryPropertyStore @48
   PSCreateMultiplexPropertyStore @49 PRIVATE
   PSCreatePropertyChangeArray @50 PRIVATE
-  PSCreatePropertyStoreFromObject @51 PRIVATE
+  PSCreatePropertyStoreFromObject @51
   PSCreatePropertyStoreFromPropertySetStorage @52 PRIVATE
   PSCreateSimplePropertyChange @53 PRIVATE
   PSEnumeratePropertyDescriptions @54 PRIVATE

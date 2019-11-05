@@ -44,7 +44,7 @@ EXPORTS
   HttpReceiveClientCertificate @39 PRIVATE
   HttpReceiveHttpRequest @40
   HttpReceiveHttpResponse @41 PRIVATE
-  HttpReceiveRequestEntityBody @42 PRIVATE
+  HttpReceiveRequestEntityBody @42
   HttpRemoveAllUrlsFromConfigGroup @43 PRIVATE
   HttpRemoveUrl @44
   HttpRemoveUrlFromConfigGroup @45 PRIVATE

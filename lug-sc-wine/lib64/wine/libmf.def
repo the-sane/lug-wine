@@ -72,7 +72,7 @@ EXPORTS
   MFCreateTranscodeTopology @67 PRIVATE
   MFCreateUrlmonSchemePlugin @68 PRIVATE
   MFCreateVideoRenderer @69 PRIVATE
-  MFCreateVideoRendererActivate @70 PRIVATE
+  MFCreateVideoRendererActivate @70
   MFCreateWMAEncoderActivate @71 PRIVATE
   MFCreateWMVEncoderActivate @72 PRIVATE
   MFEnumDeviceSources @73
