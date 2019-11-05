@@ -7,6 +7,8 @@ Buildinfo:
 
 This is a standart wine-staging build on latest commit from today.
 The dependencies are all served except the 32bit side is missing xslt and xml2 functionality.
+On first load of the game, the prefix get updated and may want you to install/reinstall wine-mono.
+If offered, do so !
 
 This is a Lutris runner for StarCitizen !
 This runner offers no fsync() support !
